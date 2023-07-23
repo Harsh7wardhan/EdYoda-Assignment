@@ -1,0 +1,15 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  background: linear-gradient(to right, #05090e, #0e1c39);
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+    margin: auto;
+  }
+}

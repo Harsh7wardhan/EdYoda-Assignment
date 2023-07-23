@@ -1,0 +1,59 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.8rem 5rem;
+
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.courses,
+.programms {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.signup-btn {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(to right, #0091ff, #004aff);
+  padding: 0.4rem 1.5rem;
+  border: 1px solid #0091ff;
+  letter-spacing: 1px;
+  border-radius: 1rem;
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #004aff, #0091ff);
+}

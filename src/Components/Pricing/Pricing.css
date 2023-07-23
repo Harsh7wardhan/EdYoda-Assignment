@@ -1,0 +1,281 @@
+.pricing-container {
+  border-radius: 0.3rem;
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 380px;
+  margin: 2rem auto 2rem auto;
+}
+
+.subscription-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.pricing-progress-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.8rem;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar button {
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid #0091ff;
+  background-color: #0091ff;
+  color: #fff;
+}
+
+.progress-bar span {
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
+}
+/*  */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-inner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+  align-items: center;
+  border: 1px solid #bebebe;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.legend {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  background-color: #f77171;
+  color: #fff;
+  padding: 0rem 0.4rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  font-size: 0.6rem;
+}
+
+.expired-offer-container {
+  background-color: #d9d9d9;
+  color: #bebebe;
+}
+
+.expired-plan-input:checked {
+  background-color: gray;
+}
+
+/*  */
+.recommended-plan {
+  border: 1px solid #47ba68;
+  background-color: #d7eddd;
+}
+
+.recommended {
+  background-color: #47ba68;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  font-weight: bolder;
+  font-size: 0.7rem;
+}
+
+.input-detail-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-size: 0.6rem;
+}
+
+.input-total-price {
+  margin-left: 0.4rem;
+  font-weight: bold;
+}
+
+.per-month {
+  margin-right: 0.5rem;
+}
+
+.month {
+  color: #bebebe;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.for-border {
+  border: 1px solid #bebebe;
+  margin: 0.8rem 0rem;
+}
+
+.subscription-fee,
+.subscription-tax {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+  font-size: 0.6rem;
+}
+.subscription-fee p {
+  font-weight: bold;
+}
+.subscription-tax {
+  margin: 0.5rem;
+}
+
+/*  */
+
+.alert-box {
+  color: #de4313;
+  background: linear-gradient(to bottom right, #de4313, #fec163);
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.alert-box-inner {
+  padding: 0.3rem 1rem;
+  background-color: #fbe3d6;
+  border-radius: 0.5rem;
+}
+
+.alert-box-offer {
+  display: flex;
+  justify-content: space-between;
+}
+.alert-box-offer p {
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.offer-time {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.7rem;
+}
+
+.alert-box-offer .alert-header {
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: #de4313;
+}
+
+.limited-time-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.tax-total-heading,
+.tax-total-amt {
+  font-weight: bold;
+}
+
+.tax-total-amt {
+  font-size: 1.2rem;
+}
+
+/*  */
+.pricing-buttons {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-top: 1.3rem;
+}
+.cancel-btn {
+  background-color: #fff;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  font-size: 0.7rem;
+  padding: 0.5rem 1.2rem;
+  width: 50%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.proceed-btn {
+  color: #fff;
+  background-color: #47ba68;
+  border: 1px solid #47ba68;
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+/*  */
+.gateway-container {
+  margin: 1rem 0;
+  margin-bottom: 0;
+}
+.gateway-container img {
+  height: 32px;
+}
+
+@media (min-width: 1024px) {
+  .pricing-container {
+    margin: 0 auto;
+  }
+}
+
+/* input radio */
+
+.available-plan {
+  position: relative;
+}
+
+label {
+  cursor: pointer;
+}
+
+.available-plan input {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  position: relative;
+}
+
+.available-plan .fa {
+  width: 15px;
+  border: 1px solid #6e6e6e;
+  color: #fff;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.available-plan input:checked + .fa {
+  background-color: #47ba68;
+  border: 1px solid #47ba68;
+}
+
+.recommended-available-plan .fa {
+  color: #d7eddd;
+}
